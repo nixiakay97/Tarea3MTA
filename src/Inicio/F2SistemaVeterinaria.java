@@ -257,18 +257,20 @@ public class F2SistemaVeterinaria extends javax.swing.JFrame {
 
         F3Cliente CC = new F3Cliente(); //jframe seleccionado
         CC.setVisible(true);// para comprovar el acceso al jframe seleccionado y entrar
-        dispose();    //para que el jFrame actual se cierre automáticamente y se abre la siguiente
+            //para que el jFrame actual se cierre automáticamente y se abre la siguiente
       
     }//GEN-LAST:event_insertarActionPerformed
 
     private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
      F4ConsultarCliente Cc = new F4ConsultarCliente();
      Cc.setVisible(true);
-            dispose();
+            
     }//GEN-LAST:event_jMenuItem3ActionPerformed
 
     private void jMenuItem7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem7ActionPerformed
-        // TODO add your handling code here:
+F6Mascota MM = new F6Mascota(); //jframe seleccionado
+        MM.setVisible(true);// para comprovar el acceso al jframe seleccionado y entrar
+     
     }//GEN-LAST:event_jMenuItem7ActionPerformed
 
     private void jMenuItem13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem13ActionPerformed
